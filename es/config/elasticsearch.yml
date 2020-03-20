@@ -14,3 +14,8 @@ xpack.security.enabled: false
 xpack.monitoring.enabled: true
 xpack.graph.enabled: true
 xpack.watcher.enabled: false
+
+# Added
+bootstrap.system_call_filter: false
+http.cors.enabled: true
+http.cors.allow-origin: "*"
